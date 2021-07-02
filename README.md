@@ -1,9 +1,12 @@
-# React Todo Test
+# React Todo App
 
-## Introduction
+## Screenshot
+<img width="900" alt="Screenshot 2021-07-02 at 13 38 15" src="https://user-images.githubusercontent.com/41064490/124275736-dbf84880-db3a-11eb-9c5b-dc52d0d22470.png">
 
-Welcome to the MAG-O UI React technical test.
-Please demonstate to us how you'd typically solve & fix the missing functionality. [Problem](#problem)
+## Functionality
+- Add a new task
+- Mark as completed and filter by active/completed
+- Delete tasks
 
 ## Project setup
 
@@ -29,10 +32,12 @@ yarn build
 yarn test
 ```
 
-## Problem
+### Linting
 
-The project is missing functionality that needs to be completed.
+```
+yarn lint
+```
+```
+yarn stylelint
+```
 
-1. The create todo form, currently doesn't add a todo. Investigate and fix.
-2. Add the ability to be able to remove todo items.
-3. Add styling to components to be presentable.
