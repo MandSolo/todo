@@ -4,7 +4,7 @@ import "./header.css";
 
 const Header = () => (
   <div className="header">
-    <h1 className="title">Todo List App</h1>
+    <h1 className="title">Todo List</h1>
     <AddTodo />
   </div>
 );

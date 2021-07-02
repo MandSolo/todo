@@ -1,7 +1,7 @@
 .header {
-  background: darkgrey;
+  background: var(--dark-grey);
   display: flex;
-  padding: 8px;
+  padding: var(--spacing-base);
   flex-direction: column;
   text-align: center;
 }

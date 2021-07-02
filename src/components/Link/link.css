@@ -1,9 +1,9 @@
 .linkBtn {
   cursor: pointer;
-  margin-right: 4px;
+  margin-right: calc(var(--spacing-base) * 0.5);
   border: none;
   text-transform: uppercase;
-  padding: 8px;
+  padding: var(--spacing-base);
 }
 
 .linkBtn:last-of-type {

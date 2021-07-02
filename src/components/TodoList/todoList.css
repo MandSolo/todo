@@ -1,5 +1,5 @@
 .todoListWrap {
-  margin: 32px 0;
+  margin: calc(var(--spacing-base) * 4) 0;
 }
 
 .todoList {
@@ -9,12 +9,12 @@
 
 .alertWrap {
   display: flex;
-  padding: 8px;
-  background: orange;
-  opacity: 0.6;
+  padding: var(--spacing-base);
+  background: var(--alert-color);
+  opacity: var(--opacity);
   align-items: center;
 }
 
 .alertMsg {
-  margin-left: 8px;
+  margin-left: var(--spacing-base);
 }

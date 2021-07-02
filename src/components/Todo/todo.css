@@ -1,15 +1,15 @@
 .todo {
   display: flex;
   justify-content: space-between;
-  background: lightgrey;
-  padding: 8px;
-  margin-bottom: 8px;
+  background: var(--light-grey);
+  padding: var(--spacing-base);
+  margin-bottom: var(--spacing-base);
   cursor: pointer;
-  opacity: 0.6;
+  opacity: var(--opacity);
 }
 
 .todo:hover {
-  opacity: 1;
+  opacity: var(--opacity-hover);
 }
 
 .todo:last-of-type {
@@ -17,16 +17,16 @@
 }
 
 .completedTodo {
-  background: lime;
+  background: var(--success-color);
   text-decoration: line-through;
 }
 
 .deleteBtn {
-  text-transform: uppercase;
-  background: none;
+  border: 2px solid var(--text-color);
+  border-radius: 15%;
+  padding: var(--spacing-base);
 }
 
 .deleteBtn:hover {
-  color: red;
-  background: none;
+  border: 2px solid var(--danger-color);
 }

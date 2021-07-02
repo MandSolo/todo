@@ -1,5 +1,23 @@
+:root {
+  --font-family: Verdana, Geneva, Tahoma, sans-serif;
+  --font-size-base: 16px;
+  --spacing-base: 8px;
+  --text-color: #17202a;
+  --light-grey: #eaecee;
+  --mid-grey: #d5d8dc;
+  --dark-grey: #808b96;
+  --alert-color: #f39c12;
+  --success-color: #2ecc71;
+  --danger-color: #e74c3c;
+  --opacity: 0.6;
+  --opacity-hover: 1;
+}
+
+/* global styles */
+
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--font-family);
+  color: var(--text-color);
 }
 
 form {
@@ -10,7 +28,7 @@ form {
 input,
 button {
   border: none;
-  padding: 8px;
+  padding: var(--spacing-base);
 }
 
 input {
@@ -18,14 +36,14 @@ input {
 }
 
 button {
-  background: grey;
+  background: var(--mid-grey);
   cursor: pointer;
 }
 
 button:hover {
-  background: lightgrey;
+  background: var(--light-grey);
 }
 
 button:disabled {
-  color: orange;
+  color: var(--alert-color);
 }
