@@ -1,0 +1,15 @@
+.linkBtn {
+  cursor: pointer;
+  margin-right: 4px;
+  border: none;
+  text-transform: uppercase;
+  padding: 8px;
+}
+
+.linkBtn:last-of-type {
+  margin-right: 0;
+}
+
+.linkBtn:hover {
+  opacity: 0.6;
+}

@@ -1,0 +1,31 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input,
+button {
+  border: none;
+  padding: 8px;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  background: grey;
+  cursor: pointer;
+}
+
+button:hover {
+  background: lightgrey;
+}
+
+button:disabled {
+  color: orange;
+}

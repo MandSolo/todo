@@ -1,0 +1,11 @@
+.header {
+  background: darkgrey;
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+}

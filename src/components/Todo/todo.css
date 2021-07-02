@@ -1,0 +1,32 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  background: lightgrey;
+  padding: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.todo:hover {
+  opacity: 1;
+}
+
+.todo:last-of-type {
+  margin-bottom: 0;
+}
+
+.completedTodo {
+  background: lime;
+  text-decoration: line-through;
+}
+
+.deleteBtn {
+  text-transform: uppercase;
+  background: none;
+}
+
+.deleteBtn:hover {
+  color: red;
+  background: none;
+}
