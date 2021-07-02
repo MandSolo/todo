@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { addTodo } from "../actions";
 import { Plus } from "react-feather";
+import PropTypes from "prop-types";
 
 const AddTodo = ({ dispatch }) => {
   let input;
@@ -31,3 +32,7 @@ const AddTodo = ({ dispatch }) => {
 };
 
 export default connect()(AddTodo);
+
+AddTodo.propTypes = {
+  dispatch: PropTypes.func,
+};
